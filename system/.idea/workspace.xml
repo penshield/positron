@@ -1,7 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e797971-fd7a-4ead-afcc-8b706e0fceab" name="Default" comment="" />
+    <list default="true" id="6e797971-fd7a-4ead-afcc-8b706e0fceab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/coreos/etcd/auth/authpb.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/coreos/etcd/mvcc/mvccpb.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/fsnotify/fsnotify.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/ghodss/yaml.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/gosuri/uiprogress/util/strutil.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/grpc-ecosystem/grpc-gateway/runtime/internal.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/grpc-ecosystem/grpc-gateway/utilities.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/hashicorp/hcl.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/hashicorp/hcl/hcl/ast.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/hashicorp/hcl/hcl/strconv.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/hashicorp/hcl/hcl/token.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/hashicorp/hcl/json/token.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/mreiferson/go-snappystream/snappy-go.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/spf13/viper.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/net/lex/httplex.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/google.golang.org/grpc/codes.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/google.golang.org/grpc/grpclog.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/google.golang.org/grpc/internal.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/google.golang.org/grpc/naming.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/gopkg.in/yaml.v2.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/BurntSushi/toml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/cloudfoundry-incubator/candiedyaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/coreos/etcd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/fsnotify/fsnotify" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/ghodss/yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/golang/protobuf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/gosuri/uilive" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/gosuri/uiprogress" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/grpc-ecosystem/grpc-gateway" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/hashicorp/hcl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/magiconair/properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/mitchellh/mapstructure" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/mreiferson/go-snappystream" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/nsqio/go-nsq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/siddontang/go-log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/spf13/cast" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/spf13/cobra" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/spf13/jwalterweatherman" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/spf13/pflag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/github.com/spf13/viper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/BurntSushi/toml.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/cloudfoundry-incubator/candiedyaml.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/coreos/etcd/clientv3.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/coreos/etcd/etcdserver/etcdserverpb.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/coreos/etcd/pkg/tlsutil.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/golang/protobuf/jsonpb.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/golang/protobuf/proto.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/gosuri/uilive.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/gosuri/uiprogress.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/grpc-ecosystem/grpc-gateway/runtime.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/hashicorp/hcl/hcl/parser.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/hashicorp/hcl/hcl/scanner.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/hashicorp/hcl/json/parser.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/hashicorp/hcl/json/scanner.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/magiconair/properties.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/mitchellh/mapstructure.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/mreiferson/go-snappystream.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/nsqio/go-nsq.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/spf13/cast.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/spf13/cobra.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/spf13/cobra/cobra/cmd.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/spf13/jwalterweatherman.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/spf13/pflag.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/net/context.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/net/http2.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/net/http2/hpack.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/net/internal/timeseries.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/net/trace.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/sys/unix.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/google.golang.org/grpc.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/google.golang.org/grpc/credentials.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/google.golang.org/grpc/metadata.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/google.golang.org/grpc/peer.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkg/linux_amd64/google.golang.org/grpc/transport.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="system.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,14 +100,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              <folding>
-                <element signature="e#14#69#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/positron/net/pap/pap.go" />
         <option value="$PROJECT_DIR$/src/positron/net/test.go" />
         <option value="$PROJECT_DIR$/src/test.go" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -125,6 +212,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="siddontang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,9 +561,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="24" width="1857" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -493,11 +624,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="e#14#69#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
