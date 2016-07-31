@@ -8,5 +8,7 @@ go get -v github.com/siddontang/go-log
 go get -v gopkg.in/gomail.v2
 go get -v github.com/Shopify/go-lua
 go get -v github.com/huandu/xstrings
+go get -v gopkg.in/mgo.v2
+
 
 
