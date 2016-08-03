@@ -3,7 +3,7 @@ package main
 import (
 
 
-	etcd "positron/configuration"
+	etcd "positron/configuration/etcd"
 	logger "positron/logging"
 
 	"fmt"

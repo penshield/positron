@@ -35,7 +35,7 @@ func ReadConfig(key string) (string,error) {
 
 			fmt.Println(fmt.Sprint("Got Exception : %v", exception))
 
-			return "", fmt.Errorf("Got Exception :%v", exception)
+			//return "", fmt.Errorf("Got Exception :%v", exception)
 		}
 	}()
 
