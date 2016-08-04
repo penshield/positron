@@ -3,7 +3,8 @@ package main
 import (
 
 
-	etcd "positron/configuration/etcd"
+	etcd "positron/config/central"
+	writer "positron/config/central"
 	logger "positron/logging"
 
 	"fmt"
@@ -35,9 +36,9 @@ func main() {
 	for key , value := range mymap {
 
 		//now insert all these keys and values
-		err = etcd.PutConfig(key,value)
+		result , err := writer.WriteConfig(key,value)
 
-		if err != nil {
+		if err != nil && result == false {
 
 			logger.Log("Got Error : ",err)
 		}

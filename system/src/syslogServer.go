@@ -11,9 +11,7 @@ func main() {
 	fmt.Println("Running SysLog server")
 	channel := make(syslog.LogPartsChannel)
 	handler := syslog.NewChannelHandler(channel)
-
 	server := syslog.NewServer()
-
 	server.SetFormat(syslog.Automatic)
 	server.SetHandler(handler)
 	server.ListenUDP("0.0.0.0:5167")
