@@ -25,7 +25,7 @@ func main() {
 
 
 	//create a logging config file
-	logConfig := logging.LoggingConfig{ Location:"/media/snouto/rest/projects/logs/positron.log", Name:"Positron"}
+	logConfig := logging.LoggingConfig{ Location:"/media/snouto/rest/projects/positron/logs/system/logs/positron.log", Name:"Positron"}
 	logging.SetLoggingConfig(&logConfig)
 	flag.Parse()
 	var key []byte

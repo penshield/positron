@@ -35,6 +35,42 @@ func (etcd *Etcd) Close() {
 	}
 }
 
+func (etcd *Etcd) OpenConnectionWith(endpoint string,timeout int) (err error) {
+
+	//Check for errors at the end
+	defer func(){
+
+		exception := recover()
+
+		if exception != nil {
+
+			//log the exception in here
+			fmt.Println("positron-Etcd:",exception)
+			etcd.state = false
+
+			err = fmt.Errorf("positron-etcd:%v",exception)
+
+
+		}
+	}()
+
+	etcd.client , err = client.New(client.Config{
+
+		Endpoints:[]string{endpoint},
+		DialTimeout:time.Duration(timeout) *time.Second,
+	})
+
+	etcd.state = true
+
+
+	etcd.ctx , etcd.cancel = context.WithTimeout(context.Background(),5*time.Second)
+
+	//set the etcd state to true
+	etcd.state = true
+
+	return err
+}
+
 func (etcd *Etcd) OpenConnection() (err error) {
 
 	//Check for errors at the end
