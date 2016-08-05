@@ -23,10 +23,12 @@ const (
 
 func openConnection() error {
 
-
-	err := server.OpenConnection()
 	config = viper.New()
-
+	config , err := ReadLocalConfig()
+	endpoint := fmt.Sprintf("http://%v:%v",config.GetString("positron.config.remote.server"),
+	config.GetInt("positron.config.remote.port"))
+	timeout := config.GetInt("positron.config.remote.timeout")
+	err = server.OpenConnectionWith(endpoint,timeout)
 	if err != nil {
 
 		return fmt.Errorf("There Was a problem opening the connection with the central configuration server")
@@ -108,7 +110,7 @@ func WriteRemoteConfig(key string , value interface{}) error {
 
 	openConnection()
 
-	
+
 
 	switch value.(type) {
 		case string:
@@ -154,9 +156,6 @@ func ReadRemoteConfig(key string) (interface{},error) {
 
 func ReadLocalConfig() (*viper.Viper,error) {
 
-	//open the connection
-	openConnection()
-	defer server.Close() //defer the closing of the connection to the end of this function
 	//now read the contents of the configuration file
 	//from etcd by using positron.main
 	localFile := os.Getenv(MAIN_CONF_FILE_NAME)
