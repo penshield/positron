@@ -9,7 +9,7 @@ import "fmt"
 var etcd Etcd
 
 
-func init(){
+func initConnect(){
 	err := etcd.OpenConnection()
 
 	if err != nil {
@@ -24,6 +24,9 @@ func init(){
 
 func ReadConfig(key string) (string,error) {
 
+
+
+	initConnect()
 
 	defer etcd.Close()
 

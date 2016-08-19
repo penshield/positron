@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;system&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../dalton/dalton/src/labix.org" />
+      <root url="file://$PROJECT_DIR$/../../dalton/dalton/src/gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../dalton/dalton/src/github.com" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../dalton/dalton/src/labix.org" />
+      <root url="file://$PROJECT_DIR$/../../dalton/dalton/src/gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../dalton/dalton/src/github.com" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
