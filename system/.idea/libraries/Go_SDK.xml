@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Go SDK">
     <CLASSES>
-      <root url="file://$USER_HOME$/bigdata/go/src" />
+      <root url="file:///home/snouto/bigdata/go/src" />
     </CLASSES>
     <SOURCES />
   </library>
